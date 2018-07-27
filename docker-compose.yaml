@@ -139,7 +139,7 @@ services:
       - payment
     ports:
       - "8080:8080"
-      - "88443:88443"
+      - "8443:8443"
     networks:
       - robot-shop
     deploy:
